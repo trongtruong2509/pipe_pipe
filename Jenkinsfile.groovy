@@ -7,7 +7,7 @@ pipeline {
         stage ("SETUP") {
             steps {
                 echo 'Run SETUP stage from jenkins...'
-                sh "${SRC_DIR}/setup.sh"
+                sh "./src/setup.sh"
             }
         }
     }
